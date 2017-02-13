@@ -1,0 +1,854 @@
+@media only screen and (max-width: 1200px) {
+    .navbar-2 .navbar-nav {
+        margin-right: 20px;
+    }
+    .social-icons span a {
+        margin: 10px;
+    }
+
+    #landing-page-header a.btn {
+        margin-bottom: 20px;
+    }
+
+    #app-landing-page-header a.btn {
+        margin-bottom: 20px;
+    }
+
+    #app-landing-page-header .separated-text {
+        margin-top: 20px;
+    }
+
+    #app-landing-page-header p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #image-slider-header .carousel-inner {
+        height: 600px;
+    }
+
+    #image-slider-header .slide1 {
+        padding: 300px 0;
+    }
+
+    #image-slider-header .slide2 {
+        padding: 300px 0;
+    }
+
+    #image-slider-header .slide3 {
+        padding: 300px 0;
+    }
+
+    #parallax-section .text-right {
+        margin-top: 0;
+    }
+
+    .parallax-section-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .parallax-section-text {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #navbar a {
+        font-size: 12px;
+    }
+
+   #navbar .btn a {
+        font-size: 11px !important;
+    }
+
+    #navbar .navbar-nav > label.btn > a {
+        font-size: 8px;
+        padding-top: 5px;
+    }
+
+    #navbar label.btn a span {
+        padding-bottom: 5px;
+    }
+
+    #navbar .btn {
+        margin-top: 25px;
+    }
+
+    .navbar-1 #navbar .btn {
+        margin-top: 25px;
+    }
+
+    .navbar a.navbar-brand > img {
+        max-height: 40px !important;
+    }
+
+    .navbar a.navbar-brand {
+        padding: 25px 25px;
+    }
+
+    .navbar-2 a.navbar-brand {
+        padding: 34px 25px;
+    }
+
+    .navbar-3 a.navbar-brand {
+        padding: 34px 25px;
+    }
+
+    .nav > li > a {
+        padding: 5px 6px;
+    }
+
+    header h2 {
+        font-size: 28px;
+    }
+
+    header#parallax-header-agency h2 {
+        font-size: 26px;
+    }
+
+    #parallax-header p img {
+        max-height: 50px;
+        margin: 0 auto;
+    }
+
+    #parallax-header a.btn {
+        font-size: 12px;
+    }
+
+    #image-slider-header .carousel-caption p {
+        font-size: 18px;
+    }
+
+    #image-slider-header .carousel-inner {
+        height: 500px;
+    }
+
+    #image-slider-header .slide1 {
+        padding: 250px 0;
+    }
+
+    #image-slider-header .slide2 {
+        padding: 250px 0;
+    }
+
+    #image-slider-header .slide3 {
+        padding: 250px 0;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    #landing-page-header .header-content {
+        text-align: center;
+    }
+
+    #landing-page-header .header-content h2 {
+        text-align: center;
+    }
+
+    #landing-page-header p {
+        width: 100%;
+    }
+
+    #landing-page-header .header-content img {
+        margin-top: 0;
+    }
+
+    #app-landing-page-header .header-content {
+        text-align: center;
+    }
+
+    #app-landing-page-header .header-content h2 {
+        text-align: center;
+    }
+
+    #app-landing-page-header p {
+        width: 100%;
+    }
+
+    #app-landing-page-header .header-content img {
+        margin-top: 0;
+    }
+
+    .col-md-4 .pricing-table {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-rounded.last.col-md-4 {
+        width: 100%;
+    }
+
+    .testimonial h3 {
+        font-size: 26px;
+    }
+
+    .testimonial {
+        padding: 105px 0 100px 0;
+    }
+
+    #testimonials .carousel-indicators {
+        margin-bottom: 30px;
+    }
+
+    .carousel-control .lnr-chevron-left {
+        left: 30% !important;
+    }
+
+    .carousel-control .lnr-chevron-right {
+        right: 30% !important;
+    }
+
+    .single-post-content {
+        width: 100%;
+    }
+
+    #parallax-section .text-right {
+        margin-bottom: 30px;
+    }
+
+    .parallax-section-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .parallax-section-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #parallax-section .image-left {
+        width: 72%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #navbar {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .parallax {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #parallax-header {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #parallax-header-agency {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #landing-page-header {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #text-slider-header .slide1 {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #text-slider-header .slide2 {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #text-slider-header .slide3 {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #image-slider-header .slide1 {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #image-slider-header .slide2 {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #image-slider-header .slide3 {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #parallax-header-agency {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #landing-page-header {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    #app-landing-page-header {
+        background-attachment: scroll !important;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+    .navbar-1 .navbar-nav {
+        float: right;
+        padding-right: 30px !important;
+    }
+
+    .navbar-fixed-top a.navbar-brand {
+        padding-left: 30px !important;
+    }
+
+    .navbar-fixed-top .navbar-toggle {
+        padding-right: 20px;
+    }
+
+    #navbar li a span {
+        padding: 10px 0;
+        margin: 20px 0;
+    }
+
+    #navbar {
+        margin-top: 0;
+    }
+
+    .dropdown {
+        padding: 10px 0;
+    }
+
+    .dropdown-menu > li > a {
+        font-size: 12px;
+    }
+
+    .navbar-fixed-top .navbar-nav {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .navbar-2 .navbar-toggle .icon-bar {
+        background-color: $white;
+    }
+
+    .navbar-fixed-top .icon-bar {
+        background-color: $primary !important;
+    }
+
+    #navbar .btn {
+        display: inline-block;
+        margin-top: 0;
+        padding: 8px 10px;
+        margin-bottom: 30px !important;
+    }
+
+    #navbar label.btn a span {
+        padding: 0;
+        margin: 14px 0;
+    }
+
+    #parallax-header-agency .header-content {
+        margin: 70px 0;
+    }
+
+    .feature-image-center img {
+        margin-bottom: 0;
+        max-width: 50%;
+    }
+
+    .testimonial h3 {
+        font-size: 24px;
+    }
+
+    .projects-widget img {
+        float: none;
+    }
+    .footer-social a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-1 .navbar-nav {
+        float: none !important;
+        padding-right: 0 !important;
+    }
+
+    .navbar-2 .navbar-nav {
+        float: none !important;
+        padding-right: 0 !important;
+        background-color: $white !important;
+    }
+
+    .navbar-2 a {
+    font-size: 14px;
+    color: $primary;
+    margin: 10px;
+    @include transition(.2s);
+    &:hover, &:active, &:focus {
+        color: $primary-hover;
+        opacity: 1;
+        text-decoration: none;
+        background: transparent !important; 
+    }
+    }
+
+    .navbar-3 {
+        border: none;
+        padding: 0;
+        border-radius:0;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+    }
+
+    .navbar-3 .navbar-header {
+        background-color: transparent;
+        border: 3px solid white;
+        padding: 0 10px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+    }
+
+    .navbar-3 .navbar-nav {
+        float: none;
+        background: $light-grey-transparent;
+    }
+
+    .navbar 3 li a span {
+        color: $text-color !important;
+    }
+
+    .navbar-3 .icon-bar {
+        background: $white !important;
+    }
+
+    .navbar-fixed-top .icon-bar {
+        background-color: $primary !important;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 14px;
+        padding-top: 0 !important;
+    }
+
+    .navbar-nav > li > .dropdown-menu {
+        margin-left: 0 !important;
+    }
+
+    #landing-page-header .navbar-3 .navbar-header {
+        border: 0 !Important;
+    }
+
+    #app-landing-page-header .navbar-3 .navbar-header {
+        border: 0 !Important;
+    }
+
+    #image-slider-header .navbar-3 .navbar-header {
+        border: 0 !Important;
+        width: 100%;
+    }
+
+    #image-slider-header #home {
+        width: 100%;
+    }
+
+    #image-slider-header .navbar {
+        margin-right: 5%;
+    }
+
+    #image-slider-header .navbar-1 {
+        margin-right: 0;
+    }
+
+    #image-slider-header .navbar-fixed-top.navbar {
+        margin-right: 0;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .pricing-table {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .screenshots {
+        margin-bottom: 30px;
+    }
+
+    .screenshots img {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .right {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+
+    .top-menu p span.right {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .top-menu p {
+        text-align: center;
+    }
+
+    .navbar-3 a.navbar-brand {
+        padding: 23px 12px;
+        max-height: 66px;
+        font-size: 22px;
+    }
+
+    .navbar-3 .navbar-toggle {
+        padding: 0;
+        margin: 14px;
+        color: $white;
+    }
+
+    .navbar-3 .navbar-toggle .icon-bar {
+        width: 28px;
+        height: 4px;
+        margin: 6px;
+    }
+
+    header#parallax-header-agency h2 {
+        font-size: 20px;
+    }
+
+    header a.btn {
+        margin-bottom: 10px;
+    }
+
+    .col-md-4 .pricing-table {
+        width: 90%;
+    }
+
+    .cta-text {
+        font-size: 20px;
+    }
+
+    .cta-content .btn {
+        font-size: 10px;
+    }
+
+    .testimonial i {
+        font-size: 30px;
+    }
+
+    .testimonial h3 {
+        font-size: 22px;
+    }
+
+    .customer-name {
+        font-size: 14px;
+    }
+
+    .testimonial {
+        padding: 50px 0 80px 0;
+    }
+
+    #testimonials .carousel-indicators {
+        margin-bottom: 25px;
+    }
+
+    #facts {
+        padding: 0 0 20px;
+    }
+
+    .facts-icon {
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #facts p {
+        font-size: 40px;
+    }
+
+    .facts-title {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .pricing-table-content li {
+        font-size: 12px;
+    }
+
+    .screenshots img {
+        max-width: 60%;
+    }
+
+    .page-header h2 {
+        font-size: 30px !important;
+    }
+
+    .post-meta {
+        font-size: 14px;
+    }
+
+    .single-post-content .social-share a {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .top-menu p span.right {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .top-menu p {
+        text-align: center;
+    }
+
+    .navbar-1 a.navbar-brand {
+        padding: 25px 12px;
+        max-height: 54px;
+    }
+
+    .navbar-2 .navbar-toggle {
+        margin-top: 18px;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
+    header h4 {
+        font-size: 12px;
+        margin: 20px auto !important;
+    }
+
+    header p img {
+        max-height: 40px;
+        margin: 0 auto;
+    }
+
+   header a.btn {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    #text-slider-header .item {
+        min-height: 340px;
+    }
+
+    #text-slider-header .carousel h2 {
+        margin-top: 20px;
+    }
+
+    .text-slider-header-content {
+        margin: 60px 0;
+    }
+
+    #parallax-header-agency .header-content {
+        margin: 20px 0;
+    }
+
+    .header-content p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+
+    #image-slider-header .carousel-inner {
+        height: 400px;
+    }
+
+    #image-slider-header .carousel-caption {
+        padding-top: 40px;
+    }
+
+    #image-slider-header .slide1 {
+        padding: 200px 0;
+    }
+
+    #image-slider-header .slide2 {
+        padding: 200px 0;
+    }
+
+    #image-slider-header .slide3 {
+        padding: 200px 0;
+    }
+
+    #app-landing-page-header h2 {
+        font-size: 18px;
+    }
+
+    #app-landing-page-header p {
+        font-size: 14px;
+    }
+
+    .col-md-4 .pricing-table {
+        width: 100%;
+    }
+
+    .pricing-table {
+        max-width: 100%;
+    }
+
+    .parallax-section-text {
+        font-size: 16px;
+    }
+
+    .portfolio-items .col-xs-6 {
+        width: 100%;
+    }
+
+    .cta-text {
+        font-size: 14px;
+    }
+
+    .cta-content .btn {
+        font-size: 10px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px !Important;
+        margin-top: 15px !important;
+    }
+
+    .carousel-control .lnr-chevron-left {
+        left: 20% !important;
+    }
+
+    .carousel-control .lnr-chevron-right {
+        right: 20% !important;
+    }
+
+    .testimonial h3 {
+        font-size: 16px;
+    }
+
+    .customer-name {
+        font-size: 12px;
+    }
+
+    .screenshots img {
+        max-width: 70%;
+    }
+
+    footer .left {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    footer.light p {
+        font-size: 12px;
+    }
+    .page-header h2 {
+        font-size: 26px !important;
+    }
+
+    .post-meta {
+        font-size: 12px;
+    }
+
+    #error-404 h2 {
+        margin-bottom: 30px;
+    }
+
+    #error-404 h3 {
+        font-size: 16px;
+    }
+
+    .spinner {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .cta-text {
+        font-size: 12px;
+    }
+
+    .cta-content .btn {
+        font-size: 8px;
+    }
+
+    .carousel-control .lnr-chevron-left {
+        left: 2px !important;
+    }
+
+    .carousel-control .lnr-chevron-right {
+        right: 2px !important;
+    }
+
+    .spinner {
+        left: 44%;
+    }
+}
+
+/* Min Widths */
+
+@media only screen and (min-width: 768px) {
+    #image-slider-header #home {
+        width: 750px;
+    }   
+}
+
+@media only screen and (min-width: 992px) {
+    #image-slider-header #home {
+        width: 970px;
+    }   
+}
+
+@media only screen and (min-width: 1200px) {
+    #image-slider-header #home {
+        width: 1170px;
+    }
+}

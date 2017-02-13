@@ -1,0 +1,483 @@
+/* Bootstrap Elements */
+
+/* Jumbotron */
+
+.jumbotron {
+    margin-top: 60px;
+    background-color: $bg-color;
+}
+
+.jumbotron h1 {
+    color: $primary;
+}
+
+
+
+/* Page Header */
+
+.page-header {
+    padding-bottom: 3px;
+    margin: 50px 0 50px;
+    text-align: center;
+    position: relative;
+    border-bottom: 0;
+}
+
+.page-header h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.page-header:after {
+    content: ""; 
+    background: $primary; 
+    position: absolute;
+    height: 5px; 
+    width: 50px;
+    margin-left: -25px;
+}
+
+
+
+/* Buttons */
+
+.btn {
+    font-weight: $bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 100px;
+    padding: 12px 24px;
+    margin: 8px;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -ms-transition:  0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+.btn-default {
+    color: $white;
+    background-color: $default;
+    border-color: $default;
+}
+
+.btn-default:hover, .btn-default:focus {
+    color: $white;
+    background-color: $default-hover;
+    border-color: $default-hover;
+    outline: none;
+}
+
+.btn-primary {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    color: $white;
+    background-color: $primary-hover;
+    border-color: $primary-hover;
+    outline: none;
+}
+
+.btn-success {
+    color: $white;
+    background-color: $success;
+    border-color: $success;
+}
+
+.btn-success:hover, .btn-success:focus {
+    color: $white;
+    background-color: $success-hover;
+    border-color: $success-hover;
+    outline: none;
+}
+
+.btn-info {
+    color: $white;
+    background-color: $info;
+    border-color: $info;
+}
+
+.btn-info:hover, .btn-info:focus {
+    color: $white;
+    background-color: $info-hover;
+    border-color: $info-hover;
+    outline: none;
+}
+
+
+.btn-warning {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+    color: $white;
+    background-color: $warning-hover;
+    border-color: $warning-hover;
+    outline: none;
+}
+
+.btn-danger {
+    color: $white;
+    background-color: $danger;
+    border-color: $danger;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    color: $white;
+    background-color: $danger-hover;
+    border-color: $danger-hover;
+    outline: none;
+}
+
+.btn-link {
+    color: $primary;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: $primary-hover;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+/* Thumbnails */
+
+.img-thumbnail {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* Labels */
+
+.label {
+    padding: 12px 24px;
+    font-size: .5em;
+    font-weight: $bold;
+    color: $white;
+    border-radius: 5px;
+}
+
+.label-default {
+    background-color: $default;
+}
+
+.label-primary {
+    background-color: $primary;
+}
+
+.label-success{
+    background-color: $success;
+}
+
+.label-info {
+    background-color: $info;
+}
+
+.label-warning {
+    background-color: $warning;
+}
+
+.label-danger {
+    background-color: $danger;
+}
+
+h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label, p .label {
+    line-height: 40px;
+}
+
+/* Badges */
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: $white;
+    background-color: $primary;
+}
+
+.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
+    color: $primary;
+}
+
+.badge {
+    color: $white;
+    background-color: $primary;
+}
+
+/* Alerts */
+
+.alert-success {
+    color: $white;
+    background-color: $success;
+    border-color: $success-hover;
+}
+
+.alert-info {
+    color: $white;
+    background-color: $info;
+    border-color: $info-hover;
+}
+
+.alert-warning {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning-hover;
+}
+
+.alert-danger {
+    color: $white;
+    background-color: $danger;
+    border-color: $danger-hover;
+}
+
+
+
+/* Progress Bars */
+
+.progress-title span {
+    float: right;
+}
+
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: $bg-color;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.progress-bar-default {
+    background-color: $default;
+}
+
+.progress-bar {
+    background-color: $primary;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.progress-bar-success {
+    background-color: $success;
+}
+
+.progress-bar-info{
+    background-color: $info;
+}
+
+.progress-bar-warning {
+    background-color: $warning;
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s;
+    -webkit-transition-duration: 10s;
+    transition-duration: 10s;
+}
+
+.progress-bar-danger {
+    background-color: $danger;
+}
+
+
+
+/* Animations */
+
+.animated {
+    -webkit-animation-duration: 1.5s !important;
+    animation-duration: 1.5s !important;
+}
+
+.second.animated{
+    -webkit-animation-duration: 2.5s !important;
+    animation-duration: 2.5s !important;
+}
+
+.third.animated{
+    -webkit-animation-duration: 2.6s !important;
+    animation-duration: 2.6s !important;
+}
+
+.fourth.animated{
+    -webkit-animation-duration: 2.8s !important;
+    animation-duration: 2.8s !important;
+}
+
+.fifth.animated{
+    -webkit-animation-duration: 3s !important;
+    animation-duration: 3s !important;
+}
+
+.sixth.animated{
+    -webkit-animation-duration: 3.2s !important;
+    animation-duration: 3.2s !important;
+}
+
+.seventh.animated{
+    -webkit-animation-duration: 3.4s !important;
+    animation-duration: 3.4s !important;
+}
+
+.eighth.animated{
+    -webkit-animation-duration: 3.5s !important;
+    animation-duration: 3.5s !important;
+}
+
+.nineth.animated{
+    -webkit-animation-duration: 3.6s !important;
+    animation-duration: 3.6s !important;
+}
+
+/* List Groups */
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text {
+    color: $grey;
+}
+
+
+
+/* Panels */
+
+.panel-default>.panel-heading {
+    color: $white;
+    background-color: $default;
+    border-color: $default-hover;
+}
+
+.panel-default {
+    border-color: $default-hover;
+}
+
+.panel-primary>.panel-heading {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.panel-primary {
+    border-color: $primary-hover;
+}
+
+.panel-success>.panel-heading {
+    color: $white;
+    background-color: $success;
+    border-color: $success-hover;
+}
+
+.panel-success {
+    border-color: $success-hover;
+}
+
+.panel-info>.panel-heading {
+    color: $white;
+    background-color: $info;
+    border-color: $info-hover;
+}
+
+.panel-info {
+    border-color: $info-hover;
+}
+
+.panel-warning>.panel-heading {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning-hover;
+}
+
+.panel-warning {
+    border-color: $warning-hover;
+}
+
+.panel-danger>.panel-heading {
+    color: $white;
+    background-color: $danger;
+    border-color: $danger-hover;
+}
+
+.panel-danger {
+    border-color: $danger-hover;
+}
+
+
+
+/* Wells */
+
+.well {
+    min-height: 19px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: $bg-color;
+    border: 1px solid $grey;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+/* Carousel */
+
+.carousel-control {
+    font-size: 34px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control .lnr-chevron-left {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    float: left;
+}
+
+.carousel-control .lnr-chevron-right {
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 15%;
+    z-index: 5;
+    display: inline-block;
+    margin-top:-10px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+    border: 1px solid $white;
+    background-color: $white;
+}
+
+.carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    margin: 7px;
+    border-width: 2px;
+    background-color: transparent;
+}
